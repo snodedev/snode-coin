@@ -123,7 +123,7 @@ public:
         nSwiftTxMinFee = 0.01 * COIN;   
 
         /** Height or Time Based Activations **/
-        nPresaleStartBlock = 9000; // Presale Start
+        nPresaleStartBlock = 8000; // Presale Start
         nPresaleEndBlock = 16000; // Presale End
         
         nLastPOWBlock = 172800; // Snodecoin 6 months PoW 

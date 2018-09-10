@@ -1,5 +1,5 @@
 ---
-name: "snodecoin-linux-1.1.1"
+name: "snodecoin-linux-1.1.0"
 enable_cache: true
 sudo: true
 suites:
@@ -37,7 +37,7 @@ files: []
 script: |
 
   WRAP_DIR=$HOME/wrapped
-  HOSTS="x86_64-linux-gnu"
+  HOSTS="i686-pc-linux-gnu x86_64-linux-gnu arm-linux-gnueabihf"
   CONFIGFLAGS="--enable-glibc-back-compat --enable-reduce-exports --disable-bench --disable-gui-tests"
   FAKETIME_HOST_PROGS=""
   FAKETIME_PROGS="date ar ranlib nm"
